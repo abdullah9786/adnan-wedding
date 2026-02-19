@@ -100,12 +100,6 @@ export default function Hero() {
         >
           Adnan
         </motion.h1>
-        <motion.p
-          {...fadeUp(1.3)}
-          className="text-[11px] md:text-xs tracking-[0.25em] uppercase text-champagne-dark/70 font-normal mt-2"
-        >
-          MBA
-        </motion.p>
 
         {/* Ampersand */}
         <motion.div
@@ -124,12 +118,6 @@ export default function Hero() {
         >
           Tahreem
         </motion.h1>
-        <motion.p
-          {...fadeUp(1.35)}
-          className="text-[11px] md:text-xs tracking-[0.25em] uppercase text-champagne-dark/70 font-normal mt-2"
-        >
-          AI Engineer
-        </motion.p>
 
         {/* Date */}
         <motion.div

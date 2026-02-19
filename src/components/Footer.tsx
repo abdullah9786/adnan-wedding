@@ -38,10 +38,18 @@ export default function Footer() {
           <div className="section-divider mb-8" />
 
           {/* Couple names */}
-          <p className="font-serif text-2xl md:text-3xl text-charcoal mb-3">
-            Adnan &amp; Tahreem
-          </p>
-          <p className="text-charcoal-light font-light text-sm md:text-base mb-1">
+          <div className="flex items-center justify-center gap-3 mb-1">
+            <div className="text-center">
+              <p className="font-serif text-2xl md:text-3xl text-charcoal">Adnan</p>
+              <p className="text-[10px] md:text-[11px] tracking-[0.2em] uppercase text-champagne-dark/60 font-normal mt-0.5">MBA</p>
+            </div>
+            <span className="font-serif text-xl md:text-2xl text-champagne italic">&amp;</span>
+            <div className="text-center">
+              <p className="font-serif text-2xl md:text-3xl text-charcoal">Tahreem</p>
+              <p className="text-[10px] md:text-[11px] tracking-[0.2em] uppercase text-champagne-dark/60 font-normal mt-0.5">AI Engineer</p>
+            </div>
+          </div>
+          <p className="text-charcoal-light font-light text-sm md:text-base mb-1 mt-3">
             We look forward to celebrating with you
           </p>
           <p className="text-charcoal-light/50 text-sm font-light">
