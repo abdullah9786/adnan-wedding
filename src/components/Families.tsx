@@ -6,6 +6,7 @@ import { motion, useInView } from "framer-motion";
 interface FamilyMember {
   name: string;
   relation: string;
+  inital: string;
 }
 
 interface FamilyGroup {
@@ -19,15 +20,15 @@ const families: FamilyGroup[] = [
     title: "Groom\u2019s Family",
     subtitle: "Patel & Ansari Family",
     members: [
-      { name: "Late Mohammed Idris Patel", relation: "Father of the Groom" },
-      { name: "Ms. Saeeda Mohammed Ilyas Ansari", relation: "Mother of the Groom" },
+      { name: "Late Mohammed Idris Patel", relation: "Father of the Groom", inital: "I" },
+      { name: "Ms. Saeeda Mohammed Ilyas Ansari", relation: "Mother of the Groom", inital: "S" },
     ],
   },
   {
     title: "Bride\u2019s Family",
     subtitle: "Khan Family",
     members: [
-      { name: "Javed Khan", relation: "Father of the Bride" },
+      { name: "Javed Khan", relation: "Father of the Bride", inital: "J" },
     ],
   },
 ];
@@ -51,7 +52,7 @@ function MemberCard({
       {/* Monogram circle */}
       <div className="shrink-0 w-11 h-11 rounded-full bg-gradient-to-br from-champagne/20 to-champagne/5 border border-champagne/20 flex items-center justify-center">
         <span className="font-serif text-base text-champagne-dark">
-          {member.name.charAt(0)}
+          {member.inital}
         </span>
       </div>
 

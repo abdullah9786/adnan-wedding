@@ -11,20 +11,6 @@ const duas = [
     source: "Sunan Abu Dawud",
   },
   {
-    arabic:
-      "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
-    translation:
-      "Our Lord, grant us from among our spouses and offspring comfort to our eyes and make us a leader for the righteous.",
-    source: "Surah Al-Furqan 25:74",
-  },
-  {
-    arabic:
-      "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً",
-    translation:
-      "And among His signs is that He created for you mates from among yourselves, that you may dwell in tranquility with them, and He has put love and mercy between your hearts.",
-    source: "Surah Ar-Rum 30:21",
-  },
-  {
     arabic: "اللَّهُمَّ أَلِّفْ بَيْنَ قُلُوبِنَا وَأَصْلِحْ ذَاتَ بَيْنِنَا",
     translation:
       "O Allah, bring our hearts together and mend our relations with one another.",
