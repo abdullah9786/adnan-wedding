@@ -6,7 +6,6 @@ import Hero from "@/components/Hero";
 import Invitation from "@/components/Invitation";
 import EventDetails from "@/components/EventDetails";
 import Countdown from "@/components/Countdown";
-import Families from "@/components/Families";
 import Blessings from "@/components/Blessings";
 import Footer from "@/components/Footer";
 
@@ -21,7 +20,6 @@ export default function Home() {
           <Invitation />
           <EventDetails />
           <Countdown />
-          <Families />
           <Blessings />
         </main>
         <Footer />
