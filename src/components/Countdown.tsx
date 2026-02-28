@@ -72,7 +72,7 @@ export default function Countdown() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 md:py-32 px-6 overflow-hidden"
+      className="relative py-14 md:py-20 px-6 overflow-hidden"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-ivory to-ivory-dark/30 pointer-events-none" />
 
@@ -81,7 +81,7 @@ export default function Countdown() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="mb-12"
+          className="mb-10"
         >
           <p className="text-xs tracking-[0.3em] uppercase text-champagne-dark mb-3">
             Save the Date
@@ -92,7 +92,7 @@ export default function Countdown() {
           <div className="section-divider mt-6" />
         </motion.div>
 
-        <div className="flex justify-center gap-4 md:gap-8">
+        <div className="flex justify-center gap-4 md:gap-5">
           <CountdownUnit value={timeLeft?.days ?? 0} label="Days" delay={0.2} />
           <CountdownUnit value={timeLeft?.hours ?? 0} label="Hours" delay={0.35} />
           <CountdownUnit
@@ -111,7 +111,7 @@ export default function Countdown() {
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ delay: 1, duration: 0.8 }}
-          className="mt-12 text-charcoal-light font-light text-sm md:text-base"
+          className="mt-8 text-charcoal-light font-light text-sm md:text-base"
         >
           Sunday, 29th March 2026 &middot; 8:30 PM
         </motion.p>

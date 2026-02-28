@@ -42,7 +42,7 @@ export default function Hero() {
         {/* Bismillah */}
         <motion.p
           {...fadeUp(0.6)}
-          className="text-champagne text-lg md:text-xl mb-8 tracking-wider"
+          className="text-champagne text-lg md:text-xl mb-5 tracking-wider"
           style={{ fontFamily: "serif" }}
         >
           بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
@@ -51,7 +51,7 @@ export default function Hero() {
         {/* Ornament */}
         <motion.div
           {...fadeUp(0.8)}
-          className="flex items-center justify-center gap-4 mb-10"
+          className="flex items-center justify-center gap-4 mb-7"
         >
           <span className="block w-16 md:w-24 h-px bg-gradient-to-r from-transparent to-champagne" />
           <svg
@@ -68,7 +68,7 @@ export default function Hero() {
         {guestName && (
           <motion.p
             {...fadeUp(0.9)}
-            className="text-sm md:text-base text-charcoal-light font-light mb-8"
+            className="text-sm md:text-base text-charcoal-light font-light mb-5"
           >
             Dear{" "}
             <span className="font-serif text-base md:text-lg text-champagne-dark font-medium">
@@ -81,14 +81,14 @@ export default function Hero() {
         {/* Subtitle above names */}
         <motion.p
           {...fadeUp(1.0)}
-          className="text-sm md:text-base tracking-[0.3em] uppercase text-charcoal-light font-light mb-6"
+          className="text-sm md:text-base tracking-[0.3em] uppercase text-charcoal-light font-light mb-5"
         >
           You are cordially invited to the
         </motion.p>
 
         <motion.p
           {...fadeUp(1.1)}
-          className="text-xs md:text-sm tracking-[0.4em] uppercase text-champagne-dark font-medium mb-10"
+          className="text-xs md:text-sm tracking-[0.4em] uppercase text-champagne-dark font-medium mb-7"
         >
           Dawat-e-Walima
         </motion.p>
@@ -104,7 +104,7 @@ export default function Hero() {
         {/* Ampersand */}
         <motion.div
           {...nameReveal(0.65)}
-          className="my-4 md:my-6"
+          className="my-3 md:my-4"
         >
           <span className="font-serif text-2xl md:text-3xl text-champagne italic">
             &amp;
@@ -122,7 +122,7 @@ export default function Hero() {
         {/* Date */}
         <motion.div
           {...fadeUp(1.5)}
-          className="mt-10 flex items-center justify-center gap-4"
+          className="mt-7 flex items-center justify-center gap-4"
         >
           <span className="block w-8 h-px bg-champagne/40" />
           <p className="text-base md:text-lg tracking-widest text-charcoal-light font-light">

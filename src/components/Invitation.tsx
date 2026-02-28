@@ -13,7 +13,7 @@ export default function Invitation() {
     <section
       id="invitation"
       ref={ref}
-      className="relative py-24 md:py-32 px-6 overflow-hidden"
+      className="relative py-14 md:py-20 px-6 overflow-hidden"
     >
       {/* Soft background */}
       <div className="absolute inset-0 bg-gradient-to-b from-ivory-dark/30 via-warm-white to-ivory pointer-events-none" />
@@ -24,7 +24,7 @@ export default function Invitation() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={isInView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.8 }}
-          className="mb-10"
+          className="mb-7"
         >
           <div className="ornament-divider">
             <svg
@@ -43,7 +43,7 @@ export default function Invitation() {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.1, duration: 0.8 }}
-            className="mb-10"
+            className="mb-7"
           >
             <p className="text-xs tracking-[0.3em] uppercase text-champagne-dark/70 mb-2">
               Dear
@@ -65,7 +65,7 @@ export default function Invitation() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="text-champagne-dark font-serif text-lg md:text-xl italic mb-8"
+          className="text-champagne-dark font-serif text-lg md:text-xl italic mb-5"
         >
           &ldquo;And among His signs is that He created for you mates from among
           yourselves, that you may dwell in tranquility with them, and He has
@@ -76,7 +76,7 @@ export default function Invitation() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="text-xs tracking-[0.3em] uppercase text-charcoal-light/60 mb-12"
+          className="text-xs tracking-[0.3em] uppercase text-charcoal-light/60 mb-7"
         >
           Surah Ar-Rum 30:21
         </motion.p>
@@ -86,7 +86,7 @@ export default function Invitation() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="space-y-6"
+          className="space-y-4"
         >
           <p className="text-base md:text-lg leading-relaxed text-charcoal-light font-light">
             <span className="font-serif text-xl md:text-2xl text-charcoal block mb-3">
@@ -122,7 +122,7 @@ export default function Invitation() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.8, duration: 0.8 }}
-          className="mt-12"
+          className="mt-8"
         >
           <p className="text-xs tracking-[0.25em] uppercase text-champagne-dark mb-2">
             With Best Compliments From
@@ -140,7 +140,7 @@ export default function Invitation() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={isInView ? { opacity: 1, scale: 1 } : {}}
           transition={{ delay: 1, duration: 0.8 }}
-          className="mt-12"
+          className="mt-8"
         >
           <div className="section-divider" />
         </motion.div>

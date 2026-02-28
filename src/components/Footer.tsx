@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer
       ref={ref}
-      className="relative py-20 md:py-28 px-6 text-center overflow-hidden islamic-pattern"
+      className="relative pt-6 pb-14 md:pt-10 md:pb-20 px-6 text-center overflow-hidden islamic-pattern"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-ivory via-ivory/98 to-ivory pointer-events-none" />
 
@@ -28,14 +28,14 @@ export default function Footer() {
             رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ
             أَعْيُنٍ
           </p>
-          <p className="text-xs tracking-[0.2em] uppercase text-charcoal-light/50 mb-8">
+          <p className="text-xs tracking-[0.2em] uppercase text-charcoal-light/50 mb-5">
             &ldquo;Our Lord, grant us from among our spouses and offspring
             comfort to our eyes&rdquo;
             <br />
             <span className="text-[10px]">— Surah Al-Furqan 25:74</span>
           </p>
 
-          <div className="section-divider mb-8" />
+          <div className="section-divider mb-5" />
 
           {/* Couple names */}
           <div className="flex items-center justify-center gap-3 mb-1">
@@ -61,7 +61,7 @@ export default function Footer() {
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="mt-12 pt-8 border-t border-champagne/10"
+          className="mt-8 pt-6 border-t border-champagne/10"
         >
           <p className="text-xs text-charcoal-light/40 font-light tracking-wider">
             Made with love &middot; {new Date().getFullYear()}

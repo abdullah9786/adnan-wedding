@@ -26,7 +26,7 @@ export default function Blessings() {
     <section
       id="blessings"
       ref={ref}
-      className="relative py-24 md:py-32 px-6 overflow-hidden"
+      className="relative pt-6 pb-6 md:pt-10 md:pb-10 px-6 overflow-hidden"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-ivory-dark/30 via-warm-white to-ivory pointer-events-none" />
 
@@ -36,7 +36,7 @@ export default function Blessings() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-10"
         >
           <p className="text-xs tracking-[0.3em] uppercase text-champagne-dark mb-3">
             In the Light of Faith
@@ -52,23 +52,23 @@ export default function Blessings() {
         </motion.div>
 
         {/* Duas grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
           {duas.map((dua, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 24 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.2 + i * 0.15, duration: 0.7 }}
-              className="group bg-warm-white/80 backdrop-blur-sm rounded-2xl p-7 md:p-9 border border-champagne/10 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col"
+              className="group bg-warm-white/80 backdrop-blur-sm rounded-2xl p-5 md:p-7 border border-champagne/10 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col"
             >
               {/* Decorative top accent */}
-              <div className="flex justify-center mb-6">
+              <div className="flex justify-center mb-5">
                 <span className="block w-8 h-px bg-gradient-to-r from-transparent via-champagne to-transparent" />
               </div>
 
               {/* Arabic text */}
               <p
-                className="text-champagne-dark text-center text-lg md:text-xl leading-loose mb-6 direction-rtl"
+                className="text-champagne-dark text-center text-lg md:text-xl leading-loose mb-5 direction-rtl"
                 style={{ fontFamily: "serif", direction: "rtl" }}
               >
                 {dua.arabic}
@@ -105,7 +105,7 @@ export default function Blessings() {
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ delay: 1, duration: 0.8 }}
-          className="mt-16 text-center"
+          className="mt-8 text-center"
         >
           <div className="ornament-divider">
             <svg

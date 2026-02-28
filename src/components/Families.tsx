@@ -16,7 +16,7 @@ export default function Families() {
     <section
       id="families"
       ref={ref}
-      className="relative py-24 md:py-32 px-6 islamic-pattern"
+      className="relative py-14 md:py-20 px-6 islamic-pattern"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-ivory via-ivory/98 to-ivory pointer-events-none" />
 
@@ -26,7 +26,7 @@ export default function Families() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-14"
+          className="text-center mb-10"
         >
           <p className="text-xs tracking-[0.3em] uppercase text-champagne-dark mb-3">
             With Love &amp; Blessings
@@ -46,10 +46,10 @@ export default function Families() {
           initial={{ opacity: 0, y: 24 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.2, duration: 0.7 }}
-          className="bg-warm-white/80 backdrop-blur-sm rounded-2xl p-7 md:p-9 border border-champagne/10 shadow-sm"
+          className="bg-warm-white/80 backdrop-blur-sm rounded-2xl p-5 md:p-7 border border-champagne/10 shadow-sm"
         >
           {/* Header */}
-          <div className="text-center mb-6">
+          <div className="text-center mb-5">
             <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-champagne/10 mb-3">
               <svg
                 className="w-5 h-5 text-champagne-dark"
@@ -106,7 +106,7 @@ export default function Families() {
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ delay: 0.8, duration: 0.8 }}
-          className="mt-14 text-center"
+          className="mt-8 text-center"
         >
           <div className="ornament-divider">
             <svg
